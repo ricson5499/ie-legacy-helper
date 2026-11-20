@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+.tmp/
+tmp/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Test output / coverage
+coverage/
+.test-results/
+
+# Dependency/build folders (if introduced later)
+node_modules/
+dist/
+build/
